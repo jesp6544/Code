@@ -11,7 +11,7 @@ body
 .inner-div
 {
     width: 96%;
-    height: 213px;  /* This was found with trial and error, this looks the best (no test under pic on small res) */
+    height: 213px;  /* This was found with trial and error, this looks the best (no text under pic on small res) */
     background-color: #ccc;
     border-radius: 3px;
     overflow: hidden;

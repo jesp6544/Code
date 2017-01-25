@@ -15,7 +15,7 @@ foreach ($files as $i){
         ?>
         <div class="inner-div">
             <img src="<?php echo $temp;?>" class="inner-div" title="Project preview" /> 
-            <h1>Title here</h1>
+            <h1><?php echo basename($temp, '.png')?></h1>
             <p>An ‘extremely credible source’ has called my office and told me that Barack Obama’s placeholder text is a fraud. You have so many different things placeholder text has to be able to do, and I don't believe Lorem Ipsum has the stamina.</p>  
             <!-- Thx, Trump ipsum: http://trumpipsum.net -->
         </div>
