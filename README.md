@@ -11,7 +11,7 @@ My first thoughts is to have each 'post' to add to the page as folders, and thos
   * The actual content (html to add to a page or a link).
 
 So the structure would be:
-´´´
+```
 Index.php
 
 20170125/
@@ -23,6 +23,6 @@ Index.php
 -- Picture.png
 -- Introduction.txt
 -- Test with a p tag.html
-´´´
+```
 
 As of now (25/1-2017) development is on: https://www.jesperpost.dk/test/phptest.php
