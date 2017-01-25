@@ -11,11 +11,13 @@ My first thoughts is to have each 'post' to add to the page as folders, and thos
   * The actual content (html to add to a page or a link).
 
 So the structure would be
+
 Index.php
 20170125/
 -- Picture.png
 -- Introduction.txt
 -- Test with a div.html
+
 20170126/
 -- Picture.png
 -- Introduction.txt
