@@ -12,12 +12,12 @@ My first thoughts is to have each 'post' to add to the page as folders, and thos
 So the structure would be:
 Index.php
 20170125/
-  Picture.png
-  Introduction.txt
-  Test with a div.html
+  - Picture.png
+  - Introduction.txt
+  - Test with a div.html
 20170126/
-  Picture.png
-  Introduction.txt
-  Test with a p tag.html
+  - Picture.png
+  - Introduction.txt
+  - Test with a p tag.html
   
 As of now (25/1-2017) development is on: https://www.jesperpost.dk/test/phptest.php
