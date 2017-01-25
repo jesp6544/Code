@@ -9,7 +9,8 @@ My first thoughts is to have each 'post' to add to the page as folders, and thos
   * A picture (preveiw).
   * A .txt file with title and introduction.
   * The actual content (html to add to a page or a link).
-So the structure would be:
+
+So the structure would be
 Index.php
 20170125/
 -- Picture.png
