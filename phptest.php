@@ -13,7 +13,7 @@ foreach ($files as $i){
     $fileInDir = glob($i . '/*.png');
     foreach ($fileInDir as $temp){
         //echo $i , ' has: ', $temp; //,"<br />"
-        //echo $tem
+        //echo $tem //bla
         ?>
         <div class="inner-div">
             <img src="<?php echo $temp;?>" width="400" height="200" title="Logo of a company" alt="Logo of a company" /> 
