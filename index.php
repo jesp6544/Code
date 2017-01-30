@@ -11,7 +11,7 @@
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
-$files = glob('*',GLOB_ONLYDIR);    //glob grabs all elements in the folder, _ONLYDIR, it only takes folders
+$files = array_reverse(glob('*',GLOB_ONLYDIR));    //glob grabs all elements in the folder, _ONLYDIR, it only takes folders
 foreach ($files as $i)
 {
     $fileInDir = glob($i . '/*.*'); //grabs all files
