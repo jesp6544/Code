@@ -25,4 +25,4 @@ Index.php
 -- Test with a p tag.html
 ```
 
-As of now (25/1-2017) development is on: https://www.jesperpost.dk/test/index.php
+As of now development is shown on: https://www.jesperpost.dk/test/index.php
