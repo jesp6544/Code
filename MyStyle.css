@@ -26,3 +26,14 @@ body
     max-height: 200px;
     border: none;
 }
+.content-div
+{
+    width: 96%;
+    /*height: 213px;  /* This was found with trial and error, this looks the best (no text under pic on small res) */
+    background-color: #ccc;
+    border-radius: 3px;
+    overflow: hidden;
+    padding: 2%;
+    border: 1px solid black;
+    border-radius: 2px;
+}
