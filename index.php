@@ -19,6 +19,10 @@
 			var tmpId = 9 + $(this).attr("id");
 			document.getElementById(tmpId).style.display = "block";
         });
+		$(".content-div").click(function(){		//my click function, calls when clicking a content-div 
+			
+			document.getElementById($(this).attr("id")).style.display = "none";
+        });
     })
     </script>
 </header>
@@ -71,7 +75,7 @@ foreach ($files as $i)
     <?php
 	if ($way == 'in'){		//if it is an internal link this loads and hides the content, the click function then shows it.
 		?>
-			<div class="content-div" style="display:none" id=<?php echo $i + "900000000" //yes this is a hacky way to do it, but it works for the next 8000 years ?>>  
+			<div class="content-div" style="display:none" id=<?php echo $i + "900000000" //yes this is a really(!) hacky way to do it, but it works for the next 8000 years ?>>  
 			<?php echo file_get_contents ($htmlfile[0]);?>
 			</div>
 		<?php
