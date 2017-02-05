@@ -1,0 +1,8 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "files.autoSave": "onFocusChange",
+    "editor.parameterHints": true,
+    "editor.formatOnType": true,
+    "php.validate.run": "onType",
+    "telemetry.enableTelemetry": false
+}
